@@ -3,11 +3,11 @@ import Navigation from '~/components/Navigation';
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title: 'Jake Rider' },
-    { name: 'description', content: 'The personal website of Jake Rider.' },
+    { title: 'Jake Rider | Blog' },
+    { name: 'description', content: 'Musings.' },
   ];
 };
 
-export default function Index() {
+export default function About() {
   return <Navigation />;
 }
